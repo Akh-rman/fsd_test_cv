@@ -4,6 +4,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 
+const babel = require('./webpack/bable');
 const devserver = require('./webpack/devserver');
 const css = require('./webpack/css');
 const cssMinify = require('./webpack/css.minify');
@@ -32,7 +33,8 @@ const common = merge([
         ]
     },
     images(),
-    jshint()
+    jshint(),
+    babel()
 ]);
 
 module.exports = function (env) {

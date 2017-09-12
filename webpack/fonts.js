@@ -3,13 +3,14 @@ module.exports = function () {
         module: {
             rules: [
                 {
-                    test: /\.(jpg|png|svg)$/,
+                    test: /\.(ttf|woff|svg)$/,
+                    exclude: '/blocks/',
                     loader: 'file-loader',
                     options: {
-                        name: 'images/[name].[ext]'
+                        name: 'fonts/[name].[ext]'
                     },
                 },
             ],
         },
     };
-};
+}

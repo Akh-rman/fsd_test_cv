@@ -10,6 +10,7 @@ const css = require('./webpack/css');
 const cssMinify = require('./webpack/css.minify');
 const sass = require('./webpack/sass');
 const extractCSS = require('./webpack/css.extract');
+const fonts = require('./webpack/fonts');
 const images = require('./webpack/images');
 const uglifyJS = require('./webpack/js.uglify');
 const copyHTML = require('./webpack/html.copy');
@@ -34,7 +35,8 @@ const common = merge([
     },
     images(),
     jshint(),
-    babel()
+    babel(),
+    fonts()
 ]);
 
 module.exports = function (env) {

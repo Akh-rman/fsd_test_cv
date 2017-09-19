@@ -20,8 +20,7 @@ const PATHS = require('./webpack/path.config');
 const common = merge([
     {
         entry: {
-            'main': PATHS.source + '/app.js',
-            'main.min': PATHS.source + '/app.js',
+            'main': PATHS.source + '/app.js'
         },
         output: {
             path: PATHS.build,

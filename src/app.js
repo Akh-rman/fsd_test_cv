@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "./css/normilize.css";
-import App from "./blocks/app/app.jsx";
-//import "./blocks/logo/logo.jsx";
+import "./css/main.css";
+import App from "./blocks/bio/bio.jsx";
 
 ReactDOM.render(
-    <App class = "app"/>,
+    <App class = "bio"/>,
     document.getElementById("main")
-)
+);

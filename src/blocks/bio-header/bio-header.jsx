@@ -14,7 +14,7 @@ export default function BioHeader (props) {
       return (
           <div className = {props.class}>
               <Image class = {props.imageClass} src = {props.imageSrc} alt = {props.imageAlt}/>
-              <BioHeaderTitle class = "bio-header__title" value = "Education"/>
+              <BioHeaderTitle class = "bio-header__title" value = {props.headerText}/>
               <BioHeaderLine class = "bio-header__line"/>
           </div>
       );

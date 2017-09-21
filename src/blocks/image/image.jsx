@@ -13,7 +13,7 @@ import "./image__software.scss";
 import "./images/photo.png";
 import "./images/contact.svg";
 import "./images/education.svg";
-import "./images/expirience.svg";
+import "./images/experience.svg";
 import "./images/profile.svg";
 import "./images/skills.svg";
 import "./images/software.svg";

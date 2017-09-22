@@ -26,7 +26,6 @@ export default function BioExperience (props) {
                 <BioItem nameClass = "bio-item-header__name bio-item-header__name_black" nameText = {data[0].header} dateText = {data[0].date} mainHeaderText = {data[0].main.header} mainText = {data[0].main.text}/>
                 <BioItem nameClass = "bio-item-header__name bio-item-header__name_black" nameText = {data[0].header} dateText = {data[0].date} mainHeaderText = {data[0].main.header} mainText = {data[0].main.text}/>
                 <BioItem nameClass = "bio-item-header__name bio-item-header__name_black" nameText = {data[0].header} dateText = {data[0].date} mainHeaderText = {data[0].main.header} mainText = {data[0].main.text}/>
-                <BioItem nameClass = "bio-item-header__name bio-item-header__name_black" nameText = {data[0].header} dateText = {data[0].date} mainHeaderText = {data[0].main.header} mainText = {data[0].main.text}/>
             </div>
         </div>
     );

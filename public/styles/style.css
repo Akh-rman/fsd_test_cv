@@ -468,11 +468,11 @@ body {
   min-height: 3508px;
   position: relative;
   margin: 0 auto; }
-.bio-software {
+.bio-experience {
   width: 1264px;
-  height: 667px;
+  height: 1026px;
   position: absolute;
-  top: 2650px;
+  top: 1519px;
   left: 1101px; }
 .bio-header {
   display: flex;
@@ -514,22 +514,6 @@ body {
 .image__software {
   width: 148px;
   height: 143px; }
-.bio-skills {
-  width: 821px;
-  height: 755px;
-  position: absolute;
-  top: 2562px;
-  left: 121px; }
-.input {
-  position: relative;
-  width: 640px;
-  height: 35px; }
-.bio-experience {
-  width: 1264px;
-  height: 1026px;
-  position: absolute;
-  top: 1519px;
-  left: 1101px; }
 .bio-item {
   display: flex;
   width: 1196px;

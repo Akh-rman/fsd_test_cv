@@ -9,3 +9,9 @@
     margin: 0;
     font-family: "Myriad Pro";
 }
+
+body {
+    min-width: 100%;
+    background-color: #dbd9e2;
+    min-height: 100%;
+}

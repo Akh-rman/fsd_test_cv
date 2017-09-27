@@ -462,21 +462,21 @@ body {
     min-width: 100%;
     background-color: #dbd9e2;
     min-height: 100%;
-}.bio-header {
-  display: flex;
-  align-items: center; }
+}.bio {
+  background-color: #ffffff;
+  width: 2480px;
+  min-height: 3508px;
+  position: relative;
+  margin: 0 auto; }
 .bio-software {
   width: 1264px;
   height: 667px;
   position: absolute;
   top: 2650px;
   left: 1101px; }
-.bio {
-  background-color: #ffffff;
-  width: 2480px;
-  min-height: 3508px;
-  position: relative;
-  margin: 0 auto; }
+.bio-header {
+  display: flex;
+  align-items: center; }
 .bio-header__line {
   flex: 1;
   background-color: #3d6cb0;
